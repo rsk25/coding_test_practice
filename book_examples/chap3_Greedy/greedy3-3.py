@@ -6,7 +6,7 @@ if __name__ == '__main__':
     result = 0
 
     for i in range(n):
-        row = map(int, input().split())
+        row = list(map(int, input().split()))
         min_num = min(row)
         result = max(result, min_num)
         
