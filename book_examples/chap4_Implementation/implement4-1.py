@@ -1,4 +1,4 @@
-from collections import Counter
+
 
 if __name__ == '__main__':
     n = int(input())
@@ -24,3 +24,4 @@ if __name__ == '__main__':
                 start[0] -= 1
     
     print(start[0], start[1])
+    
